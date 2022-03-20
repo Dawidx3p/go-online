@@ -1,9 +1,12 @@
 import React from "react";
 
-const ColorList = () => {
-    return(
-        <div className="add-color"></div>
-    )
+class ColorList extends React.Component{
+    render(){
+        return(
+            <div className="color-list"></div>
+        )
+    }
+    
 }
 
 export default ColorList;
