@@ -1,0 +1,37 @@
+$margin: 1rem;
+$input-padding: 0.6rem;
+$background: linear-gradient(90deg, #E52B50, #E34234);
+
+.add-color {
+    display: grid;
+    justify-items: center;
+    background-color: rgb(252, 252, 252);
+    box-shadow: -3px 3px 20px #e3433451;
+    border-radius: 1rem;
+    input{
+        padding: $input-padding;
+        margin-bottom: $margin;
+        border: 0;
+        background: rgb(213, 213, 213);
+        color:rgb(53, 53, 53);
+    }
+    span{
+        margin-bottom: $margin;
+    }
+    select, button{
+        justify-self: center;
+        text-align: center;
+        border: 0;
+        background: $background;
+        margin-bottom: $margin;
+        padding: $input-padding;
+        color:rgb(255, 231, 231);
+        cursor: pointer;
+    }
+    option{
+        color:#E34234;
+    }
+    .error-span{
+        color:#E34234;
+    }
+}
